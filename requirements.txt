@@ -1,4 +1,6 @@
-aiortc
-aiohttp
-PyGObject
-numpy
+pip install -r requirements.txt
+# GStreamer ve Python binding'lerinin sisteminde kurulu olması gerekir.
+# Ubuntu/Debian için:
+# sudo apt-get install python3-gi python3-gst-1.0 gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0
+# sudo apt-get install gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav
+# sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
